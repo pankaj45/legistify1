@@ -21,7 +21,7 @@ class Signup extends CI_Controller
 			'lname' => $this->input->post('lastname'),
 			'username' => $this->input->post('username'),
 			'email' => $this->input->post('email'),
-			'password' => md5($this->input->post('lastname')),
+			'password' => md5($this->input->post('password')),
 			'user_type' => $this->input->post('optradio'),
 			'activation_key' => $key
 			);
