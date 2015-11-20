@@ -24,7 +24,7 @@
     <link href="assets/css/socialIcons.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
     <!-- <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
@@ -36,7 +36,6 @@
     <![endif]-->
 
 </head>
-
 
 <!--Login  Modal  -->
 <div class="modal fade bs-example-modal-sm" tabindex="-1" id="login-overlay" role="dialog" aria-labelledby="mySmallModalLabel">
@@ -50,15 +49,15 @@
               <div class="row">
                   <div class="col-sm-6">
                       <div class="well" >
-                          <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                          <form id="loginForm" method="POST" action="login" novalidate="novalidate">
                               <div class="form-group">
                                   <label for="username" class="control-label">Username/Email</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
+                                  <input type="text" class="form-control" id="username" name="username1" title="Please enter you username" placeholder="example@gmail.com">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="password" class="control-label">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                  <input type="password" class="form-control" id="password" name="password1"  title="Please enter your password">
                                   <span class="help-block"></span>
                               </div>
                               <button type="submit" class="btn btn-dark " style="width:100%">Login</button>
@@ -102,37 +101,37 @@
               <div class="row">
                   <div class="col-xs-12">
                       <div class="well">
-                          <form id="loginForm" method="POST" action="/signup/" novalidate="novalidate">
+                          <form id="loginForm" method="POST" action="signup/" novalidate="novalidate">
                               <div class="form-group">
                                   <label for="firstname" class="control-label">First Name</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you name" placeholder="Varun">
+                                  <input type="text" class="form-control" id="username" name="firstname"  title="Please enter you name" placeholder="Varun">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="lastname" class="control-label">Last Name</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you last name" placeholder="Bansal">
+                                  <input type="text" class="form-control" id="username" name="lastname" title="Please enter you last name" placeholder="Bansal">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="username" class="control-label">Username</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="bansalvarun">
+                                  <input type="text" class="form-control" id="username" name="username" title="Please enter you username" placeholder="bansalvarun">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="username" class="control-label">Email</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you email" placeholder="varunbansal@gmail.com">
+                                  <input type="text" class="form-control" id="username" name="email" title="Please enter you email" placeholder="varunbansal@gmail.com">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="password" class="control-label">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                  <input type="password" class="form-control" id="password" name="password" title="Please enter your password">
                                   <span class="help-block"></span>
                               </div>
                             <div class="radio" style="text-align:left">
                               <label style="font-weight:bold;padding-left:0px">I am a &nbsp;</label>
-                              <label><input type="radio" name="optradio">User</label>
-                              <label><input type="radio" name="optradio">Lawyer</label>
-                              <label><input type="radio" name="optradio">Law Student</label>
+                              <label><input type="radio" name="optradio" value="u">User</label>
+
+                              <label><input type="radio" name="optradio" value="s">Law Student</label>
                             </div>
 
                               <div id="loginErrorMsg" class="alert alert-error hide">Wrong username or password</div>
@@ -172,19 +171,19 @@
 -                        <a href="#page-top"></a>       
 -                    </li>
                     <li>
-                        <a class="page-scroll" href="Legal/about">ABOUT</a>
+                        <a class="page-scroll" href="about">ABOUT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/categories">DOCUMENTS</a>
+                        <a class="page-scroll" href="documents">DOCUMENTS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/search">RESEARCH</a>
+                        <a class="page-scroll" href="research">RESEARCH</a>
                     </li>
                     <li>
                         <a class="page-scroll"  href="#login-overlay" data-toggle="modal" data-target="#login-overlay">LOGIN</a>
                     </li>
                     <li >
-                        <button class="btn btn-default forlawyers" style="margin-top:5px; margin-left:18px">For lawyers</button>
+                        <button class="btn btn-default forlawyers" onclick="location.href='lawyers'" style="margin-top:5px; margin-left:18px">For lawyers</button>
                     </li>
                 </ul>
             </div>
@@ -548,13 +547,13 @@
                     <h4>Quick Links</h4>
                     <img src="assets/img/bg.png"  width="50px" height="2px" style="margin-top:-30px;">
                     <ul style="list-style-type:none; text-decoration: none;display:inline">
-                        <li><a href="Legal/about">About</a></li>
-                        <li><a href="Legal/team">Team</a></li>
-                        <li><a href="Legal/careers">Careers</a></li>
-                        <li><a  href="Legal/categories">Document</a></li>
-                        <li><a  href="Legal/search">Research</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="team">Team</a></li>
+                        <li><a href="careers">Careers</a></li>
+                        <li><a  href="documents">Document</a></li>
+                        <li><a  href="research">Research</a></li>
                         <li><a  href="#">Pricing</a></li>
-                        <li><a  href="Legal/sitemap">Site Map</a></li>
+                        <li><a  href="sitemap">Site Map</a></li>
                         <li><br/></li>
                     </ul>
                 </div>
@@ -566,21 +565,21 @@
                     </div>
                     <div class="col-xs-6" style="padding-left:0px">
                       <ul style="list-style-type:none; text-decoration: none;display:inline">
-                        <li>Employment Contract</li>
-                        <li>Trademark Assignment</li>
-                        <li>Copyright Assignment</li>
-                        <li>Non-Disclosure</li>
-                        <li>Power of attorney</li>
-                        <li>Lease</li>
+                        <li><a href="docdetails">Employment Contract</a></li>
+                        <li><a href="docdetails">Trademark Assignment</a></li>
+                        <li><a href="docdetails">Copyright Assignment</a></li>
+                        <li><a href="docdetails">Non-Disclosure</a></li>
+                        <li><a href="docdetails">Power of attorney</a></li>
+                        <li><a href="docdetails">Lease</a></li>
                       </ul>                      
                     </div>
                     <div class="col-xs-6">
                     <ul style="list-style-type:none; text-decoration: none;display:inline">
-                        <li>Sale Deed</li>
-                        <li>Arbitration Agreement</li>
-                        <li>Will</li>
-                        <li>Graphic  designer agreement</li>
-                        <li>merchant agreement</li>
+                        <li><a href="docdetails">Sale Deed</a></li>
+                        <li><a href="docdetails">Arbitration Agreement</a></li>
+                        <li><a href="docdetails">Will</a></li>
+                        <li><a href="docdetails">Graphic  designer agreement</a></li>
+                        <li><a href="docdetails">merchant agreement</a></li>
                       </ul>                      
                     </div>
 
@@ -629,6 +628,7 @@
      <script src="assets/js/grayscale.js"></script>
 
      <script src="assets/js/services.js"></script>
+     <script src="assets/js/search.js"></script>
 
 
 

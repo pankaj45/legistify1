@@ -1,10 +1,11 @@
+
 function changeActivePag(i){
 	for (var j = 3; j > 0; j--) {
 		a = document.getElementById("pag"+j);
-		a.setAttribute("src","img/inactive.png");
+		a.setAttribute("src","assets/img/inactive.png");
 	};
 	a = document.getElementById("pag"+i);
-	a.setAttribute("src","img/active.png");
+	a.setAttribute("src","assets/img/active.png");
 
 }
 $(document).ready(function(){

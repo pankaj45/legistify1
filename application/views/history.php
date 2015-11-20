@@ -9,7 +9,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">
+                <a class="navbar-brand page-scroll" href="Legal/index">
                     <span class="light">legistify</span>
                 </a>
             </div>
@@ -21,19 +21,19 @@
 -                        <a href="#page-top"></a>       
 -                    </li>
                     <li>
-                        <a class="page-scroll" href="Legal/about">ABOUT</a>
+                        <a class="page-scroll" href="about">ABOUT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/categories">DOCUMENTS</a>
+                        <a class="page-scroll" href="documents">DOCUMENTS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/search">RESEARCH</a>
+                        <a class="page-scroll" href="research">RESEARCH</a>
                     </li>
                     <li>
                         <a class="page-scroll"  href="#login-overlay" data-toggle="modal" data-target="#login-overlay">LOGIN</a>
                     </li>
                     <li >
-                        <button class="btn btn-default forlawyers" style="margin-top:5px; margin-left:18px">For lawyers</button>
+                        <button class="btn btn-default forlawyers" onclick="location.href='lawyers'" style="margin-top:5px; margin-left:18px">For lawyers</button>
                     </li>
                 </ul>
             </div>
@@ -54,9 +54,9 @@
         <div class="col-md-4" ></div>
         <div class="col-md-4">            
           <div class="row" style="margin-bottom:0px">
-          <span class="nav-tab" ><a href="Legal/pending">Pending</a></span>
+          <span class="nav-tab" ><a href="pending">Pending</a></span>
           <span class="nav-tab" ></span>
-          <span class="nav-tab-active" ><a href="Legal/history">History</a></span>
+          <span class="nav-tab-active" ><a href="history">History</a></span>
           <img src="assets/img/dark.png" class="hideMeOnMobile"  width="50px" height="3px" style="margin-top:100px;;margin-left:-65px" >    
           </div>
         </div>

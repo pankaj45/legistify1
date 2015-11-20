@@ -8,7 +8,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">
+                <a class="navbar-brand page-scroll" href="Legal/index">
                     <span class="light">legistify</span>
                 </a>
             </div>
@@ -20,19 +20,19 @@
 -                        <a href="#page-top"></a>       
 -                    </li>
                     <li>
-                        <a class="page-scroll" href="Legal/about">ABOUT</a>
+                        <a class="page-scroll" href="about">ABOUT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/categories">DOCUMENTS</a>
+                        <a class="page-scroll" href="documents">DOCUMENTS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/search">RESEARCH</a>
+                        <a class="page-scroll" href="research">RESEARCH</a>
                     </li>
                     <li>
                         <a class="page-scroll"  href="#login-overlay" data-toggle="modal" data-target="#login-overlay">LOGIN</a>
                     </li>
                     <li >
-                        <button class="btn btn-default forlawyers" style="margin-top:5px; margin-left:18px">For lawyers</button>
+                        <button class="btn btn-default forlawyers" onclick="location.href='lawyers'" style="margin-top:5px; margin-left:18px">For lawyers</button>
                     </li>
                 </ul>
             </div>
@@ -64,44 +64,60 @@
             <h7 style=" text-transform: uppercase">General Commercial Agreements</h7>
             <HR style="border-width:3px"></HR>
                 <div class="col-md-4 col-xs-6">
+                   <a href="documents"> 
                     <h6>
                       Contract of Employment (for a junior level employee)
                     </h6>
+                   </a> 
                 </div>
                 <div class="col-md-4 col-xs-6">
+                   <a href="documents">
                     <h6>
                       Contract of Employment (for a senior level employee)
                     </h6>
+                   </a> 
                 </div>
                 <div class="col-md-4 col-xs-6">
+                   <a href="documents"> 
                     <h6>
 Employee Innovation and Proprietary Information Agreement
                     </h6>
+                   </a> 
                 </div>
                 <div class="col-md-4 col-xs-6">
+                   <a href="documents"> 
                     <h6>
 Consultancy Agreement
                     </h6>
+                   </a> 
                 </div>
                 <div class="col-md-4 col-xs-6">
+                   <a href="documents"> 
                     <h6>
 Consultancy Service Agreement
                     </h6>
+                   </a> 
                 </div>
                 <div class="col-md-4 col-xs-6">
+                   <a href="documents"> 
                     <h6>
 Consultant’s Non-Disclosure & Non-Compete Agreement
                     </h6>
+                   </a> 
                 </div>
                 <div class="col-md-4 col-xs-6">
+                   <a href="documents"> 
                     <h6>
 Agency Agreement
                     </h6>
+                   </a> 
                 </div>
                 <div class="col-md-4 col-xs-6">
+                   <a href="Legal/document">
                     <h6>
 Supply Contract
                     </h6>
+                   </a> 
                 </div>
                 <div class="col-md-4 col-xs-6">
                     <h6>

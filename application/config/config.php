@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://legistify.tripsos.com/';
+$config['base_url'] = 'http://localhost/legistify/';
 
 /*
 |--------------------------------------------------------------------------
@@ -166,7 +166,7 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 |
 | By default CodeIgniter enables access to the $_GET array.  If for some
 | reason you would like to disable it, set 'allow_get_array' to FALSE.
-|0
+|
 | You can optionally enable standard query string based URLs:
 | example.com?who=me&what=something&where=here
 |
@@ -358,7 +358,7 @@ $config['encryption_key'] = 'PkGg9ZQCFcrfx7Y8XenBYwL1Gw3dy66K';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = BASEPATH . 'cache/';
+$config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;

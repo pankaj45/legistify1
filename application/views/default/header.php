@@ -21,9 +21,10 @@
 
     <!-- Custom CSS -->
     <link href="assets/css/about.css" rel="stylesheet">
+    
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
     <!-- <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
@@ -48,15 +49,15 @@
               <div class="row">
                   <div class="col-xs-6">
                       <div class="well" >
-                          <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                          <form id="loginForm" method="POST" action="login" novalidate="novalidate">
                               <div class="form-group">
                                   <label for="username" class="control-label">Username/Email</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
+                                  <input type="text" class="form-control" id="username" name="username1" required="" title="Please enter you username" placeholder="example@gmail.com">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="password" class="control-label">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                  <input type="password" class="form-control" id="password" name="password1" required="" title="Please enter your password">
                                   <span class="help-block"></span>
                               </div>
                               <button type="submit" class="btn btn-dark " style="width:100%">Login</button>
@@ -100,37 +101,36 @@
               <div class="row">
                   <div class="col-xs-12">
                       <div class="well">
-                          <form id="loginForm" method="POST" action="/signup/" novalidate="novalidate">
+                          <form id="loginForm" class="signupForm" method="POST" action="signup" novalidate="novalidate">
                               <div class="form-group">
                                   <label for="firstname" class="control-label">First Name</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you name" placeholder="Varun">
+                                  <input type="text" class="form-control" id="firstname" name="firstname" title="Please enter you name" placeholder="Varun">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="lastname" class="control-label">Last Name</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you last name" placeholder="Bansal">
+                                  <input type="text" class="form-control" id="lastname" name="lastname" title="Please enter you last name" placeholder="Bansal">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="username" class="control-label">Username</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="bansalvarun">
+                                  <input type="text" class="form-control" id="username" name="username" title="Please enter you username" placeholder="bansalvarun">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
-                                  <label for="username" class="control-label">Email</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you email" placeholder="varunbansal@gmail.com">
+                                  <label for="Email" class="control-label">Email</label>
+                                  <input type="email" class="form-control" id="email" name="email" title="Please enter you email" placeholder="varunbansal@gmail.com">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="password" class="control-label">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                  <input type="password" class="form-control" id="password" name="password" title="Please enter your password">
                                   <span class="help-block"></span>
                               </div>
                             <div class="radio" style="text-align:left">
                               <label style="font-weight:bold;padding-left:0px">I am a &nbsp;</label>
-                              <label><input type="radio" name="optradio">User</label>
-                              <label><input type="radio" name="optradio">Lawyer</label>
-                              <label><input type="radio" name="optradio">Law Student</label>
+                              <label><input type="radio" name="optradio" value="u">User</label>
+                              <label><input type="radio" name="optradio" value="s">Law Student</label>
                             </div>
 
                               <div id="loginErrorMsg" class="alert alert-error hide">Wrong username or password</div>

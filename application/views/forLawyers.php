@@ -8,7 +8,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">
+                <a class="navbar-brand page-scroll" href="Legal/index">
                     <span class="light">legistify</span>
                 </a>
             </div>
@@ -20,19 +20,19 @@
 -                        <a href="#page-top"></a>       
 -                    </li>
                     <li>
-                        <a class="page-scroll" href="Legal/about">ABOUT</a>
+                        <a class="page-scroll" href="about">ABOUT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/categories">DOCUMENTS</a>
+                        <a class="page-scroll" href="documents">DOCUMENTS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/search">RESEARCH</a>
+                        <a class="page-scroll" href="research">RESEARCH</a>
                     </li>
                     <li>
                         <a class="page-scroll"  href="#login-overlay" data-toggle="modal" data-target="#login-overlay">LOGIN</a>
                     </li>
                     <li >
-                        <button class="btn btn-default forlawyers" style="margin-top:5px; margin-left:18px">For lawyers</button>
+                        <button class="btn btn-default forlawyers" onclick="location.href='lawyers'" style="margin-top:5px; margin-left:18px">For lawyers</button>
                     </li>
                 </ul>
             </div>
@@ -78,7 +78,7 @@
               Our online agreement maker, a one of its kind service is a technology backed platform for you to avoid all the hassles in procuring legal agreements and paperwork. It is time you do-it-yourself. Apart from legal agreements we maintain a high quality resource bank so that people get to understand their legal issues in a more structured and systematic way and devise means to solve them.<br/>
               Last but not the least, legistify’s lawyer listing platform helps users find the most suitable lawyers for their legal issues to achieve what we sometimes refer to as legal liberation.
             </p>
-                <p align="left" style="color:black;font-size:18px"><b>JOIN US</b></p>
+                <p align="left" style="color:black;font-size:18px"><a href="joinus"><b>JOIN US</b></a></p>
 
         </div>
 
@@ -97,7 +97,7 @@
                 Long gone are those days when you had to scroll around to get your legal demands met. At Legistify we believe everyone has the right to affordable and quick legal aid. Laws set the foundation of a developing economy and set the right path.<BR/> We aim to solve and facilitate legal dilemmas for businesses as well as individuals to help them traverse on the right path to success. Technology and transparency is something that we want to 
                 bring in to the legal sector.
                 </p>
-                <p align="left" style="color:black;font-size:18px"><b>JOIN US</b></p>
+                <p align="left" style="color:black;font-size:18px"><a href="joinus"><b>JOIN US</b></a></p>
             </div>
             <div class="col-md-4" style="margin-left:0px; padding-left:0px" align="right">
                 <img src="assets/img/bg.png">
@@ -121,7 +121,7 @@
               Our online agreement maker, a one of its kind service is a technology backed platform for you to avoid all the hassles in procuring legal agreements and paperwork. It is time you do-it-yourself. Apart from legal agreements we maintain a high quality resource bank so that people get to understand their legal issues in a more structured and systematic way and devise means to solve them.<br/>
               Last but not the least, legistify’s lawyer listing platform helps users find the most suitable lawyers for their legal issues to achieve what we sometimes refer to as legal liberation.
             </p>
-                <p align="left" style="color:black;font-size:18px"><b>JOIN US</b></p>
+                <p align="left" style="color:black;font-size:18px"><a href="joinus"><b>JOIN US</b></a></p>
 
         </div>
 

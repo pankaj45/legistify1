@@ -60,6 +60,42 @@ a {
     transition: all .2s ease-in-out;
     font-weight: normal;
 }
+.well{
+    background-color: white;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.coupon{
+    border: 2px solid #232c3c;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.ques div{
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.quesFormInput{
+    margin-left: 10px;
+    border: 0px solid white;
+    border-bottom: 2px solid #232c3c;
+}
+
+.ques div::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+.ques div::-webkit-scrollbar-track {
+    background-color: white; 
+}
+ 
+.ques div::-webkit-scrollbar-thumb {
+    background-color: #232c3c; 
+
+}
+
+
 .modal{
     color:#000;
 }
@@ -124,7 +160,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: black;
 }
 .container-full {
   margin: 0 0;
@@ -202,6 +238,10 @@ a:focus {
 }
 .choose{
     overflow:auto;
+}
+.tab-pane li{
+    font-size: 15px;
+    color: #232c3c;
 }
 .nav-tab{
     font-size: 16px;
@@ -693,6 +733,34 @@ a:focus {
     color: #fff;
     background-color: #232C3C;
 }
+.btn-qty{
+    border: .165em solid #232C3C;
+    color: #232C3C;
+    background-color: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;    
+}
+.btn-qty:hover,
+.btn-qty:focus {
+    border: .165em solid #232C3C;
+    outline: 0;
+    color: white;
+    background-color: #232C3C;
+}
+
+.btn-light{
+    border: .165em solid #232C3C;
+    color: white;
+    background-color: #232C3C;
+}
+.btn-light:hover,
+.btn-light:focus {
+    border: .165em solid #232C3C;
+    outline: 0;
+    color: #232c3c;
+    background-color: transparent;
+}
+
 .btn-social {
     border: .165em solid #fff;
     color: #fff;
@@ -804,7 +872,40 @@ ul.banner-social-buttons {
     border-color: #232c3c;
     border-width: 2px;
 } 
+/*asfasfas*/
+.panel-default{
+    border-radius: 0px;
+    border-color: white;
+}
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small> a {
+    color: black;
+}
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a:hover{
+    color: black;
+}
 
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body{
+    border-color: 0px;
+    border-top:white;
+    border-bottom: white;
+}
+.panel-default > .panel-heading{
+    border-radius: 0px;
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+.panel-default > .panel-heading:hover,
+.panel-default > .panel-heading:focus{
+    background-color: #232c3c;
+    color: white;
+}
+.panel-default > .panel-heading a:hover{
+    color: white;
+
+}
+
+/*asfafas*/
 footer {
     padding-top: 100px;
 

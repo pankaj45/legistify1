@@ -9,7 +9,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">
+                <a class="navbar-brand page-scroll" href="Legal/index">
                     <span class="light">legistify</span>
                 </a>
             </div>
@@ -33,7 +33,7 @@
                         <a class="page-scroll"  href="#login-overlay" data-toggle="modal" data-target="#login-overlay">LOGIN</a>
                     </li>
                     <li >
-                        <button class="btn btn-default forlawyers" style="margin-top:5px; margin-left:18px">For lawyers</button>
+                        <button class="btn btn-default forlawyers" onclick="location.href='Legal/lawyers'" style="margin-top:5px; margin-left:18px">For lawyers</button>
                     </li>
                 </ul>
             </div>

@@ -10,7 +10,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">
+                <a class="navbar-brand page-scroll" href="Legal/index">
                     <span class="light">legistify</span>
                 </a>
             </div>
@@ -22,19 +22,19 @@
 -                        <a href="#page-top"></a>       
 -                    </li>
                     <li>
-                        <a class="page-scroll" href="Legal/about">ABOUT</a>
+                        <a class="page-scroll" href="about">ABOUT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/categories">DOCUMENTS</a>
+                        <a class="page-scroll" href="documents">DOCUMENTS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Legal/search">RESEARCH</a>
+                        <a class="page-scroll" href="research">RESEARCH</a>
                     </li>
                     <li>
                         <a class="page-scroll"  href="#login-overlay" data-toggle="modal" data-target="#login-overlay">LOGIN</a>
                     </li>
                     <li >
-                        <button class="btn btn-default forlawyers" style="margin-top:5px; margin-left:18px">For lawyers</button>
+                        <button class="btn btn-default forlawyers" onclick="location.href='lawyers'" style="margin-top:5px; margin-left:18px">For lawyers</button>
                     </li>
                 </ul>
             </div>
@@ -59,7 +59,7 @@
                 <h2 style="color:black;" >Job Offer and Employment Contract</h2>
             </div>
         <div style="float:right">
-            <button class="btn btn-dark">Start creating a Document</button>
+            <button class="btn btn-dark" onclick="location.href='Legal/document2'">Start creating a Document</button>
         </div>
         </div>
         <div class="col-md-2">
